@@ -1,0 +1,9 @@
+* {
+	min-width: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	@apply font-sans;
+}
