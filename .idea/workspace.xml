@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdbd71d9-ded8-4194-ad24-f2de361770eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/app/src/mocks/recipes.mock.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/app/src/models/search.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/app/src/pages/exemple-recherche.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/app/src/pages/recettes/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/app/src/stores/search.store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/eslint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app/nuxt.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/nuxt.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app/src/contents/start.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/src/contents/start.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app/src/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/src/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +75,15 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/antoinelzch/Projects/headless-2024&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/antoinelzch/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/233.11799.229/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/antoinelzch/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/233.14015.89/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -85,7 +98,9 @@
       <workItem from="1706343402569" duration="6960000" />
       <workItem from="1706350376712" duration="5456000" />
       <workItem from="1706457600641" duration="237000" />
-      <workItem from="1706457962985" duration="7000" />
+      <workItem from="1706457962985" duration="5109000" />
+      <workItem from="1706463955992" duration="41000" />
+      <workItem from="1706464004451" duration="1959000" />
     </task>
     <servers />
   </component>

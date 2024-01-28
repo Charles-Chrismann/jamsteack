@@ -49,10 +49,10 @@ pnpm build
 
 ## Documentations
 
-| URL                                      | Description                    |
-|------------------------------------------|--------------------------------|
-| [UnoCSS](https://unocss.dev/)            | Documentation de UnoCSS        |
-| [NuxtStrapi](https://strapi.nuxtjs.org/) | Documentation du module Strapi |
-| [NuxtImage](https://image.nuxt.com/)     | Documentation du module Image  |
+| URL                                                                                                                      | Description                    |
+|--------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+| [UnoCSS](https://unocss.dev/)                                                                                            | Documentation de UnoCSS        |
+| [NuxtStrapi](https://strapi.nuxtjs.org/)         <br/>                                                                   | Documentation du module Strapi |
+| [NuxtImage](https://image.nuxt.com/)                                                                                     | Documentation du module Image  |
 
 

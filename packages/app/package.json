@@ -11,6 +11,7 @@
     "biome:check": "biome check ./src"
   },
   "devDependencies": {
+    "@pinia/nuxt": "^0.5.1",
     "@types/markdown-it": "^13.0.7",
     "@unocss/nuxt": "^0.58.3",
     "@unocss/transformer-directives": "^0.58.4",
@@ -26,6 +27,7 @@
     "@unocss/reset": "^0.58.4",
     "eslint": "^8.56.0",
     "eslint-plugin-format": "^0.1.0",
+    "fuse.js": "^7.0.0",
     "markdown-it": "^14.0.0"
   }
 }
