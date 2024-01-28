@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: false,
   srcDir: "src",
   devtools: { enabled: true },
   css: ["@unocss/reset/normalize.css", "~/assets/css/main.css"],

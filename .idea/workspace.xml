@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdbd71d9-ded8-4194-ad24-f2de361770eb" name="Changes" comment="" />
+    <list default="true" id="cdbd71d9-ded8-4194-ad24-f2de361770eb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/app/nuxt.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/app/nuxt.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "code.cleanup.on.save": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/antoinelozach/Projects/interne/cours/2024/headless",
+    "last_opened_file_path": "/Users/antoinelzch/Projects/headless-2024",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,7 +72,7 @@
     "nodejs_package_manager_path": "pnpm",
     "rearrange.code.on.save": "true",
     "settings.editor.selected.configurable": "preferences.sourceCode",
-    "ts.external.directory.path": "/Users/antoinelozach/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "ts.external.directory.path": "/Users/antoinelzch/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/233.11799.229/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,6 +86,7 @@
       <updated>1706343401321</updated>
       <workItem from="1706343402569" duration="6960000" />
       <workItem from="1706350376712" duration="5456000" />
+      <workItem from="1706457600641" duration="220000" />
     </task>
     <servers />
   </component>
