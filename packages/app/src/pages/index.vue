@@ -37,9 +37,9 @@ console.log(search.queryTags.includes(tag))
         <div class="flex gap-2 flex-wrap">
           <button
             v-for="tag in tags?.data" :key="tag.id"
-            :class="{ 'bg-gray-900 text-white': search.queryTags.includes(tag.slug) }"
             :title="tag.name"
-            class="py-1 px-2 bg-gray-200 text-gray-900 border-none cursor-pointer"
+            class="py-1 px-2 border-none cursor-pointer"
+            :class="{ 'bg-gray-900 text-white': search.queryTags.includes(tag.slug), 'bg-gray-200 text-gray-900': !search.queryTags.includes(tag.slug) }"
             @click="addTag(tag.slug)"
           >
             {{ tag.name }}
