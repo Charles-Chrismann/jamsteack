@@ -28,6 +28,7 @@
     "eslint": "^8.56.0",
     "eslint-plugin-format": "^0.1.0",
     "fuse.js": "^7.0.0",
-    "markdown-it": "^14.0.0"
+    "markdown-it": "^14.0.0",
+    "strapi-plugin-import-export-entries": "^1.23.1"
   }
 }

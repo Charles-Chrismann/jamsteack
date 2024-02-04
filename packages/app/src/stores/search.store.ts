@@ -1,10 +1,19 @@
 import Fuse from 'fuse.js'
-import { recipesMock } from '~/mocks/recipes.mock'
+import { useAsyncData } from '../../.nuxt/imports'
 
 export const useSearchStore = defineStore('search', () => {
-  const search = ref('')
+  const { find } = useStrapi()
+
+  const { data:recipes, pending, error } = useAsyncData('recipes',
+  () => find('recipes', {
+    populate: '*'
+  })
+  )
+
+  const query = ref('')
+  const queryTags = ref<string[]>([])
   // TODO: Replace any with your Recipe type and change elements
-  const elements = reactive<Array<any>>(recipesMock)
+  const elements = reactive<Array<any>>(recipes.value?.data || [])
   const keys = ['title', 'ingredients', 'tags']
 
   const setElements = (newElements: any) => {
@@ -17,10 +26,17 @@ export const useSearchStore = defineStore('search', () => {
   }))
 
   const results = computed(() => {
-    if (!search.value)
+    if (!query.value)
       return Array.from(elements)
-    return [...fuse.value.search(search.value).map(r => r.item)]
+    return [...fuse.value.search(query.value).map(r => r.item)]
   })
 
-  return { search, results, setElements }
+  const sortedByTags = computed(() => {
+    if(!queryTags.value.length) return results.value
+    return results.value.filter(recipe => recipe.tags.some(tag => queryTags.value.includes(tag.slug)))
+  })
+
+  const resetTags = () => queryTags.value = []
+
+  return { query, results, setElements, sortedByTags, resetTags, queryTags }
 })
